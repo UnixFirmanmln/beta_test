@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<title>Arang</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.css">
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+	<!-- Music -->
+ 	<iframe hidden="" width="0" height="0" src="music/Cooking with Valkyries EP10 Ending Theme [Extended].mp3" frameborder="0 allowfullscreen"></iframe>
+
+	<!-- Header -->
+	<header id="header">
+		<a href="#" class="logo">Arang</a>
+		<ul>
+			<li><a href="#home" onclick="toggle()">Home</a></li>
+			<li><a href="#about" onclick="toggle()">About us</a></li>
+			<li><a href="#buy" onclick="toggle()">Products</a></li>
+			<li><a href="#team" onclick="toggle()">Team</a></li>
+			<li><a href="#contact" onclick="toggle()">Contact</a></li>
+		</ul>
+		<div class="toggle" onclick="toggle()"></div> <!-- for responsive -->
+	</header>
+
+	<!-- Banner -->
+	<section class="banner" id="home">
+		<!-- slide1 -->
+		<div class="slide active">
+			<img src="images/charcoal_1080.jpg" alt="gambar1">
+			<div class="info">
+				<h2>Hello,<br>We're <span>Distributor</span><br>A Charcoal</h2>
+			</div>
+		</div>
+
+		<!-- slide2 -->
+		<div class="slide">
+			<img src="images/slide2.png" alt="gambar2">
+			<div class="info">
+				<h2>Hello,<br>We're <span>Distributor</span><br>A Charcoal</h2>
+			</div>
+		</div>
+
+		<!-- slide3 -->
+		<div class="slide">
+			<img src="images/slide3.png" alt="gambar3">
+			<div class="info">
+				<h2>Hello,<br>We're <span>Distributor</span><br>A Charcoal</h2>
+			</div>
+		</div>
+
+		<div class="navigation">
+			<div class="btn-slide active"></div>
+			<div class="btn-slide"></div>
+			<div class="btn-slide"></div>
+		</div>
+		
+	</section>
+
+	<!-- About -->
+	<section class="sec" id="about">
+		<div class="content">
+			<div class="mxw800p">
+				<br><br><br>
+				<h3>About us</h3>
+				<p>We're a producer of coconut briquette, which has already been exported to various countries around the world</p>
+				<p>For a certain period of time we have been keeping a low profile to focus on achieving the desired quality that our customers demanded. Now, after a long and careful research and experiments, we are confident we can satisfy our customers’ needs. We can proudly state that we are now able to produce one of the best coco charcoals in the market throughout the world. We are now looking to partner up with the most reliable wholesaler or agents who are specialized and are fully committed in this coconut.</p>
+				<a href="#buy" class="btn">Let's Check Product Gallery</a> <!-- if i want to move to banner -->
+			</div>
+
+			<div class="services1">
+				<div class="box1">
+					<div class="iconBx1">
+					</div>
+					<div class="content">
+						<h2>Vision</h2>
+						<p>To be the top/leading producer and most trusted /admired coconut shell company in the world</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="services1_2">
+				<div class="box1">
+					<div class="iconBx1">
+					</div>
+					<div class="content">
+						<h2>Mission</h2>
+						<p>Manufacturing and supplying coconut shell products that are eco-friendly and satisfy our customers. Continue to do research and experiments to achieve the best efficient products possible for our customers. Deliver a world class performance for our customers throughout the world. Never afraid to changes in order to satisfy our customers’ needs. Our customers’ success is our main goal. Constantly Building and maintaining a good and professional relationship with both our clients and employees so that all involved with us are benefited</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<!-- Activity -->
+	<section class="sec" id="products">
+		<div class="content">
+			<div class="mxw800p">
+				<h3>Our Key Feature</h3>
+				<p>bla bla bla</p>
+			</div>
+			<div class="services">
+				<div class="box">
+					<div class="iconBx">
+						<img src="images/integrity.png">
+					</div>
+					<div class="content">
+						<h2>INTEGRITY</h2>
+						<p>Integrity means telling the truth, keeping our word and treating others with fairness and respect. Integrity is one of our most cherished assets. It must not be compromised</p>
+					</div>
+				</div>
+
+				<div class="box">
+					<div class="iconBx">
+						<img src="images/quality.png" style="width: 100px;">
+					</div>
+					<div class="content" style="margin-top: 10px;">
+						<h2>QUALITY</h2>
+						<p>Quality is exhibited in many ways by selling and supporting products and services that delight customers, establishing a work environment, delivering financial results that meet investor expectations</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="services">
+				<div class="box">
+					<div class="iconBx">
+						<img src="images/commitment.png">
+					</div>
+					<div class="content">
+						<h2>COMMITMENT</h2>
+						<p>Commitment is important where we will continue to provide the best to our customers and investors all the time. Our opportunity to serve should be viewed as a privilege that is not to be taken for granted</p>
+					</div>
+				</div>
+
+				<div class="box">
+					<div class="iconBx">
+						<img src="images/innovation.png">
+					</div>
+					<div class="content">
+						<h2>INNOVATION</h2>
+						<p>Innovation means inventing, designing, developing products and services that have high appeal in the marketplace and strengthen customer preference for the Universal Coco Indonesia project</p>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+
+	<!-- Stats -->
+	<section class="sec2 stats">
+		<div class="content">
+			<div class="mxw800p">
+				<h3>The Leading Supplier of Coconut Product</h3>
+				<!-- <h3>"The most enjoyable job in the world is a paid hobby"</h3>
+				<p>-Ridwan Kamil</p> -->
+			</div>
+
+		</div>
+	</section>
+
+
+	<!-- Gallery -->
+	<section class="sec buy" id="buy">
+		<div class="content">
+			<div class="mxw800p">
+				<h3 style="margin-top: -50px">Product Gallery</h3>
+				<p>Dari Jenis Arang yang Kami Produksi seperti Arang Tempurung Kelapa, Arang kayu Asam, Arang Kayu Ulin, Arang kayu bubuk atau Sawdust dan sebagainya. Semua Kami Produksi dari Indonesia. Produksi Arang Briket yang Kami Produksi Dijamin Berkualitas Standar Ekspor.</p>
+			</div>
+
+			<!-- buy -->
+			<div class="flex_swiper">
+				<div class="blog-slider">
+					<div class="blog-slider__wrp swiper-wrapper">
+
+						<!-- item 1 -->
+						<div class="blog-slider__item swiper-slide">
+				   			<div class="blog-slider__img">
+				    			<img src="images/Coconut_Shell_Charcoal_Briquettes_Cube.jpeg">
+				    		</div>
+
+				    		<div class="blog-slider__content">
+				        		<span class="blog-slider__code">Product 1</span>
+				        		
+				        		<div class="blog-slider__title">
+				        			100 %Coconut Shell Charcoal Briquettes Cube Shape for Shisa (Diamond ) Eropean Standar Quality
+				        		</div>
+				        		
+				        		<div class="blog-slider__text">
+				        		• Calori Value 7000 - 7200 Kilo Calori • Total Moisture 7 % • Ash Content 2 – 2.5 % • Fixed Carbon 84 % • Burning Time 2 Hours • White Ash • European Standard • Price $ 1200 USD per Ton • SMDS Certificate • 10 Kg Packaging Cartoon ( Exclude Inner Box ) 
+				    			</div>
+				        		<a href="https://api.whatsapp.com/send?phone=6282140633146&text=Saya%20tertarik%20untuk%20membeli%20produk%20ini%20segera." class="blog-slider__button">Buy Now (≧▽≦)</a>
+				      		</div>
+				    	</div>
+				    
+				    	<!-- item 2 -->
+				    	<div class="blog-slider__item swiper-slide">
+				    		<div class="blog-slider__img">
+				        		<img src="images/Mix_Coconut_Charcoal.jpg">
+				      		</div>
+
+				      		<div class="blog-slider__content">
+				        		<span class="blog-slider__code">Product 2</span>
+
+				        		<div class="blog-slider__title">
+				        			Mix Coconut Charcoal 95 % & 5 % Wood Cube Shape for Shisa ( Gold )
+				        		</div>
+
+				        		<div class="blog-slider__text">
+				        			• Calori Value 6800 – 7000 Kilo Calori • Total Moisture 7 – 10 % • Ash Content 2 – 3 % • Fixed Carbon 84 – 85 % • Burning Time 2 Hours • White Ash • Middle East & Asia Standard • Price 1.100 USD per Ton • SMDS Certificate • 10 Kg Packaging Cartoon (Exclude Inner Box)
+				        		</div>
+				        		<a href="https://api.whatsapp.com/send?phone=6282140633146&text=Saya%20tertarik%20untuk%20membeli%20produk%20ini%20segera." class="blog-slider__button">Buy Now (｡•̀ᴗ-)✧</a>
+				      		</div>
+				    	</div>
+				    
+				    	<!-- item 3 -->
+				    	<div class="blog-slider__item swiper-slide">
+				      		<div class="blog-slider__img">
+				        		<img src="images/Mix_Coconut_Charcoal_Sawdust_Briquettes_Pillow.jpg">
+				      		</div>
+
+				      		<div class="blog-slider__content">
+				        		<span class="blog-slider__code">Product 3</span>
+
+				        		<div class="blog-slider__title">
+				        			Mix Coconut Charcoal & Sawdust Briquettes Pillow Shape for Barberque
+				        		</div>
+
+				        		<div class="blog-slider__text">
+				        			• Calori Value 6000 – 6500 Kilo Calori • Total Moisture 10 % • Ash Content 4 – 10 % • Fixed Carbon 85 % • Burning Time 2 Hours • White Cream Ash • Middle East & Asia Standard • Price 650 USD per Ton • SMDS Certificate • 10 Kg Packaging Cartoon ( Exclude Inner Box)
+				        		</div>
+				        		<a href="https://api.whatsapp.com/send?phone=6282140633146&text=Saya%20tertarik%20untuk%20membeli%20produk%20ini%20segera." class="blog-slider__button">Buy Now :)</a>
+				      		</div>
+				    	</div>
+
+				    	<!-- item 4 -->
+				    	<div class="blog-slider__item swiper-slide">
+				    		<div class="blog-slider__img">
+				        		<img src="images/Mix_Coconut_Sawdust_Briquettes.jpg">
+				      		</div>
+
+				      		<div class="blog-slider__content">
+				        		<span class="blog-slider__code">Product 4</span>
+
+				        		<div class="blog-slider__title">
+				        			Mix Coconut & Sawdust Briquettes Hexagonal Shape
+				        		</div>
+
+				        		<div class="blog-slider__text">
+				        			• Calori Value 6000 – 6500 Kilo Calori • Total Moisture 10 % • Ash Content 4 – 10 % • Fixed Carbon 85 % • Burning Time 2 Hours • White Cream Ash • Middle East & Asia Standard • Price 650 USD per Ton • SMDS Certificate • 10 Kg Packaging Cartoon ( Exclude Inner Box)
+				        		</div>
+				        		<a href="#" class="blog-slider__button">Buy Now (｡•̀ᴗ-)✧</a>
+				      		</div>
+				    	</div>
+
+				    	<!-- item 5 -->
+				    	<div class="blog-slider__item swiper-slide">
+				      		<div class="blog-slider__img">
+				        		<img src="images/Coconut_Shell_Charcoal.jpg">
+				      		</div>
+
+				      		<div class="blog-slider__content">
+				        		<span class="blog-slider__code">Product 3</span>
+
+				        		<div class="blog-slider__title">
+				        			Coconut Shell Charcoal
+				        		</div>
+
+				        		<div class="blog-slider__text">
+				        			• Calori Value 6500 – 7000 Kilo Calori • Total Moisture 10 % • Ash Content 3 % • Fixed Carbon 85 % • Burning Time 2 Hours • White Cream Ash • Middle East & Asia Standard • Price 520 USD per Ton • SMDS Certificate • 50 Kg Packaging
+				        		</div>
+				        		<a href="https://api.whatsapp.com/send?phone=6282140633146&text=Saya%20tertarik%20untuk%20membeli%20produk%20ini%20segera." class="blog-slider__button">Buy Now :)</a>
+				      		</div>
+				    	</div>
+				    
+				  </div>
+				  <div class="blog-slider__pagination"></div>
+				</div>
+			</div>
+			<!-- ------------------------------------------------------------ -->
+
+		</div>
+	</section>
+
+	<section class="sec" id="team">
+		<div class="content">
+			<div class="mxw800p">
+				<h3>Our Team</h3>
+			</div>
+		
+			<div class="section-card">
+				<div class="card pic1">
+					<div class="card-content">
+						<h2 class="card-title">Firman Maulana</h2>
+						<p class="card-body">Test test test test Test test test test Test test test test . . .</p>
+						<a href="#" class="button">Learn More</a>
+					</div>
+				</div>
+
+				<div class="card pic2">
+					<div class="card-content">
+						<h2 class="card-title">Ahmad bayu Firdaus</h2>
+						<p class="card-body">Test test test test Test test test test Test test test test . . .</p>
+						<a href="#" class="button">Learn More</a>
+					</div>
+				</div>
+
+				<div class="card pic3">
+					<div class="card-content">
+						<h2 class="card-title">Danang Wahyu Kraton</h2>
+						<p class="card-body">Test test test test Test test test test Test test test test . . .</p>
+						<a href="#" class="button">Learn More</a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<!-- Contact -->
+	<section class="sec contact" id="contact">
+		<div class="content">
+			<div class="mxw800p">
+				<h3>Send Me A Message</h3>
+				<!-- <p>test test test test test test test test test test test</p> -->
+			</div>
+			<div class="contactForm">
+				<form>
+					<div class="row100">
+						<div class="inputBx50">
+							<input type="text" name="" placeholder="Full Name">
+						</div>
+
+						<div class="inputBx50">
+							<input type="text" name="" placeholder="Email Address">
+						</div>
+					</div>
+					
+					<div class="row100">
+						<div class="inputBx100">
+							<textarea placeholder="Message"></textarea>
+						</div>
+					</div>
+
+					<div class="row100">
+						<div class="inputBx100">
+							<input type="submit" name="" value="Send">
+						</div>
+					</div>
+
+						<!-- iframe -->
+						<div class="map">
+							<h2>Address</h2>
+            				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.243270429421!2d113.18529921425309!3d-7.764005979154723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7b27eed73b5e7%3A0xa96d4bcfbdca52f9!2sJl.%20Ir.%20Soekarno%2C%20Pilang%2C%20Kec.%20Kademangan%2C%20Kota%20Probolinggo%2C%20Jawa%20Timur%2067221!5e0!3m2!1sid!2sid!4v1576462529511!5m2!1sid!2sid" width="350" height="250" frameborder="0" style="border:0;">
+            				</iframe>
+            			</div>
+				</form>
+			</div>
+			<div class="sci">
+				<ul>
+					<li><a href="#"><img src="images/facebook.png"></a></li>
+					<li><a href="#"><img src="images/twitter.png"></a></li>
+					<li><a href="#"><img src="images/linkedin.png"></a></li>
+				</ul>
+			</div>
+			<p class="copyright">Copyright ©2020 | Unix. Firman_mln</p>
+			<!-- <p>
+  				Copyright &copy;<script>document.write(new Date().getFullYear());</script> | Unix. Firman_mln
+  			</p> -->
+		</div>
+	</section>
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+
+
+	<script type="text/javascript">
+		// stiky & vanila js
+		window.addEventListener("scroll", function(){
+			var header = document.querySelector("header");
+			header.classList.toggle("sticky", window.scrollY > 0);
+		})
+		function toggle(){
+			var header = document.querySelector("header");
+			header.classList.toggle("active");
+		}
+
+		// swiper js
+		var swiper = new Swiper('.blog-slider', {
+	      spaceBetween: 30,
+	      effect: 'fade',
+	      loop: true,
+	      mousewheel: {
+	        invert: false,
+	      },
+	      // autoHeight: true,
+	      pagination: {
+	        el: '.blog-slider__pagination',
+	        clickable: true,
+	      }
+	    });
+
+
+		// Carousel
+		//declare
+		var slides = document.querySelectorAll('.slide');
+		var btns = document.querySelectorAll('.btn-slide');
+		let currentSlide = 1;
+
+		//manual slide
+		var manualNav = function(manual){
+			slides.forEach((slides) => {
+				slides.classList.remove('active');
+
+				btns.forEach((btn) => {
+					btn.classList.remove('active');
+				})
+			})
+
+			slides[manual].classList.add('active');
+			btns[manual].classList.add('active');
+		}
+
+		btns.forEach((btn, i) => {
+			btn.addEventListener("click", () => {
+				manualNav(i);
+				currentSlide = i;
+			})
+		})
+		
+		//auto slide
+		var repeat = function(activeClass){
+			let active = document.getElementsByClassName('active');
+			let i = 1;
+
+			var repeater = () => {
+				setTimeout(function(){
+					//remove limit after nav btn (intinya biar infinity loop)
+					[...active].forEach((activeSlide) => {
+						activeSlide.classList.remove('active');
+					})
+
+
+					slides[i].classList.add('active');
+					btns[i].classList.add('active');
+					i++;
+
+					if(slides.length == i){
+						i = 0;
+					}
+					if(i >= slides.length){
+						return;
+					}
+					repeater();
+				}, 6000);
+			}
+			repeater();
+		}
+		repeat();
+
+
+
+		
+		// progressBar
+		// let progress = document.getElementById('progressbar');
+		// let totalHeight = document.body.scrollHeight - window.innerHeight;
+		// window.onscroll = function(){
+		// 	let progressHeight = (window.pageYOffset / totalHeight) * 100;
+		// 	progress.style.height = progressHeight + "%";
+		// }
+	</script>
+</body>
+</html>
